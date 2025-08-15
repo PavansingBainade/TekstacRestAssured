@@ -1,0 +1,31 @@
+Request method:	GET
+Request URI:	https://webapps.tekstac.com/TrainAPI/BookingService/viewBookingById/1001
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Authorization=Bearer D5EoeEcZVlrbtNVw2v4ekrRc9b05lhLbVfefHMjxWUI
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 
+Content-Type: application/json
+Content-Length: 215
+Date: Fri, 15 Aug 2025 16:43:18 GMT
+Keep-Alive: timeout=60
+Connection: keep-alive
+
+{
+    "bookingId": 1001,
+    "bookingDate": "23/11/2021",
+    "departCity": "Chennai",
+    "arrivalCity": "Coimbatore",
+    "passengerCount": 1,
+    "trainName": "Chennai Express",
+    "passengerName": "Rakesh",
+    "trainClass": "SLEEPER",
+    "ticketType": "GENERAL"
+}

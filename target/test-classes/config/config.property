@@ -1,0 +1,5 @@
+baseURI=https://webapps.tekstac.com/TrainAPI/BookingService
+username=user1
+password=pass123
+login=https://webapps.tekstac.com/OAuthRestApi/webapi/auth/login
+token=https://webapps.tekstac.com/OAuthRestApi/webapi/auth/token

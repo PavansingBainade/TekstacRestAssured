@@ -1,0 +1,132 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Aug 16 02:48:02 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5345 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create multiple bookings from Excel data", "To Verify all the API Functionality in Booking of EventManagement"</td>
+<td><div><pre>java.lang.AssertionError: API should NOT return 200 for invalid data: bookingId=1004 did not expect [200] but found [200]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failEquals(Assert.java:1041)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
+	at org.testng.Assert.assertNotEquals(Assert.java:1531)
+	at Stepdefinitions.feature1.i_read_booking_data_from_excel(feature1.java:159)
+	at ✽.read booking data from Excel &quot;src/test/resources/Exceldata.xlsx&quot;(file:///C:/Users/Pavan/eclipse-workspace/TackstacRestassured.zip_expanded/EventManagementSystem_Restassured/src/test/resources/Feature/EventManagement.feature:41)
+</pre></div><a href='#' onClick='toggleBox("stack-trace53337290", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace53337290'><pre>java.lang.AssertionError: API should NOT return 200 for invalid data: bookingId=1004 did not expect [200] but found [200]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failEquals(Assert.java:1041)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
+	at org.testng.Assert.assertNotEquals(Assert.java:1531)
+	at Stepdefinitions.feature1.i_read_booking_data_from_excel(feature1.java:159)
+	at ✽.read booking data from Excel &quot;src/test/resources/Exceldata.xlsx&quot;(file:///C:/Users/Pavan/eclipse-workspace/TackstacRestassured.zip_expanded/EventManagementSystem_Restassured/src/test/resources/Feature/EventManagement.feature:41)
+</pre></div></td>
+<td>1</td>
+<td>TestRunner.TestRunner@217ed35e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get bookings by train class", "To Verify all the API Functionality in Booking of EventManagement"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.TestRunner@217ed35e</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To view all the Bookings List", "To Verify all the API Functionality in Booking of EventManagement"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.TestRunner@217ed35e</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Create a new booking successfully", "To Verify all the API Functionality in Booking of EventManagement"</td>
+<td></td>
+<td>2</td>
+<td>TestRunner.TestRunner@217ed35e</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete booking by ID", "To Verify all the API Functionality in Booking of EventManagement"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.TestRunner@217ed35e</td></tr>
+<tr>
+<td title='TestRunner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Get booking by ID", "To Verify all the API Functionality in Booking of EventManagement"</td>
+<td></td>
+<td>0</td>
+<td>TestRunner.TestRunner@217ed35e</td></tr>
+</table><p>
+</body>
+</html>

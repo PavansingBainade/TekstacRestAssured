@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-08-16T02:48:02 IST" name="Default suite" finished-at="2025-08-16T02:48:08 IST" duration-ms="5345">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@217ed35e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-08-16T02:48:02 IST" name="Default test" finished-at="2025-08-16T02:48:08 IST" duration-ms="5345">
+      <class name="TestRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:02 IST" name="setUpClass" finished-at="2025-08-16T02:48:03 IST" duration-ms="673" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24520a51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:03 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:48:06 IST" duration-ms="2547" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create a new booking successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify all the API Functionality in Booking of EventManagement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:48:06 IST" duration-ms="444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To view all the Bookings List"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify all the API Functionality in Booking of EventManagement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:48:06 IST" duration-ms="190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get booking by ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify all the API Functionality in Booking of EventManagement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:48:06 IST" duration-ms="180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Get bookings by train class"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify all the API Functionality in Booking of EventManagement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:48:07 IST" duration-ms="187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete booking by ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify all the API Functionality in Booking of EventManagement"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-16T02:48:08 IST" duration-ms="1062" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Create multiple bookings from Excel data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Verify all the API Functionality in Booking of EventManagement"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[API should NOT return 200 for invalid data: bookingId=1004 did not expect [200] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: API should NOT return 200 for invalid data: bookingId=1004 did not expect [200] but found [200]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failEquals(Assert.java:1041)
+at org.testng.Assert.assertNotEqualsImpl(Assert.java:147)
+at org.testng.Assert.assertNotEquals(Assert.java:1531)
+at Stepdefinitions.feature1.i_read_booking_data_from_excel(feature1.java:159)
+at ✽.read booking data from Excel "src/test/resources/Exceldata.xlsx"(file:///C:/Users/Pavan/eclipse-workspace/TackstacRestassured.zip_expanded/EventManagementSystem_Restassured/src/test/resources/Feature/EventManagement.feature:41)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:TestRunner.TestRunner@217ed35e]" started-at="2025-08-16T02:48:08 IST" name="tearDownClass" finished-at="2025-08-16T02:48:08 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
